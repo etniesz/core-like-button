@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Likes</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+    <body>
+        <div class="top">
+            <div class="navbar-container">
+                <h1>Network</h1>
+            </div>
+        </div>
+        <div class="title">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="flex-container">
+            <div class="col-l">
+                <div class="user-data">
+                    <img src="./assets/user_avatar.svg" alt="Avatar">
+                    <p>Add an avatar</p>
+                    <h2>James Doe</h2>
+                </div>
+            </div>
+            <div class="col-r">
+                <div class="post-container">
+                    <div class="first-row">
+                        <h2>Neil M</h2>
+                        <p><span>9</span> like(s)</p>
+                        <button class="btn" onclick="likePost(this)">Like</button>
+                    </div>
+                    <div class="second-row">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="first-row">
+                        <h2>Nichole K</h2>
+                        <p><span>12</span> like(s)</p>
+                        <button class="btn" onclick="likePost(this)">Like</button>
+                    </div>
+                    <div class="second-row">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="first-row">
+                        <h2>Jim R</h2>
+                        <p><span>9</span> like(s)</p>
+                        <button class="btn" onclick="likePost(this)">Like</button>
+                    </div>
+                    <div class="second-row">
+                        <p>I can't stop listening to the <a href="#">new album</a>. Who eslse is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
